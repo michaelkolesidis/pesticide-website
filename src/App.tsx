@@ -7,8 +7,8 @@ function App() {
   return (
     <>
       <div>
-        <a href="https://react.dev" target="_blank" rel="noopener noreferrer">
-          <img src={pesticideLogo} className="logo react" alt="React logo" />
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <img src={pesticideLogo} className="logo" alt="Pesticide logo" />
         </a>
       </div>
 
