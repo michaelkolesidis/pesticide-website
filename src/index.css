@@ -38,12 +38,11 @@ h1 {
 }
 
 h2 {
-  margin-top: 2em;
-  font-size: 1.25em;
+  font-size: 1.5em;
 }
 
 h3 {
-  font-size: 1.5em;
+  font-size: 2em;
 }
 
 @media (prefers-color-scheme: light) {
@@ -51,8 +50,8 @@ h3 {
     color: #213547;
     background-color: #ffffff;
   }
+
   a:hover {
     color: #0f135e;
   }
-
 }

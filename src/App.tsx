@@ -7,12 +7,22 @@ function App() {
   return (
     <>
       <div>
-        <a href="#" target="_blank" rel="noopener noreferrer">
+        <a
+          href="https://chromewebstore.google.com/detail/pesticide-without-hover-b/ibaidbcedfbojihflojeekadmebnlbpb"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <img src={pesticideLogo} className="logo" alt="Pesticide logo" />
         </a>
       </div>
-
       <h1>Pesticide (without hover bar)</h1>
+      <a
+        href="https://chromewebstore.google.com/detail/pesticide-without-hover-b/ibaidbcedfbojihflojeekadmebnlbpb"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img id="store-icon" src="/chrome-store-s.png" alt="" />
+      </a>
       <h2>
         📢 Now updated for Manifest V3! <span className="flipped">📢</span>
       </h2>
