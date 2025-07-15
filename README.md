@@ -6,8 +6,6 @@
 
 The website of the **[Pesticide (wihout hover bar)](https://github.com/michaelkolesidis/pesticide-without-hover-bar)** Chrome extension.
 
-GitHub Repository: [Pesticise (wihout hover bar)](https://github.com/michaelkolesidis/pesticide-without-hover-bar)
-
 ## 📜 License
 
 <a href="https://www.gnu.org/licenses/agpl-3.0.html"><img src="./public/agplv3.svg" height="80px" /></a>
