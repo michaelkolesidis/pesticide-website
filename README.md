@@ -1,8 +1,8 @@
 # Pesticide (without hover bar) Website
 
-![icon](./public/icon_128.png)
+[![icon](./public/icon_128.png)](https://pesticide.michaelkolesidis.com/)
 
-<a href="https://chromewebstore.google.com/detail/pesticide-without-hover-b/ibaidbcedfbojihflojeekadmebnlbpb"><img src="./public/chrome-store.png"></a>
+[![Chrome Web Store](./public/chrome-store.png)](https://chromewebstore.google.com/detail/pesticide-without-hover-b/ibaidbcedfbojihflojeekadmebnlbpb)
 
 The website of the **[Pesticide (wihout hover bar)](https://github.com/michaelkolesidis/pesticide-without-hover-bar)** Chrome extension.
 
