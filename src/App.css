@@ -42,29 +42,24 @@ body {
 .logo {
   height: 8em;
   padding: var(--spacing-md);
-  transition: filter var(--transition-speed) var(--transition-ease),
-    transform var(--transition-speed) var(--transition-ease);
-  will-change: filter, transform;
 }
 
-.logo:hover {
-  filter: drop-shadow(0 0 2em var(--color-primary));
-}
+
 
 #store-icon {
   margin: 2em 0;
   background: white;
   border-radius: var(--border-radius-md);
   background-color: var(--color-background-card);
-  box-shadow: 0 5px 15px var(--color-shadow);
   border: 1px solid var(--color-border);
-  transition: transform var(--transition-speed) var(--transition-ease),
-    box-shadow var(--transition-speed) var(--transition-ease),
-    filter var(--transition-speed) var(--transition-ease);
+  transition:
+    transform var(--transition-speed) var(--transition-ease),
+    box-shadow var(--transition-speed) var(--transition-ease);
 }
 
 #store-icon:hover {
-  filter: drop-shadow(0 0 5em var(--color-primary));
+  transform: scale(1.05);
+  box-shadow: 0 5px 15px var(--color-shadow);
 }
 
 .flipped {
@@ -83,7 +78,7 @@ body {
   padding: var(--spacing-xl);
   border-radius: var(--border-radius-md);
   margin: var(--spacing-xl) 0;
-  box-shadow: 0 10px 30px var(--color-shadow);
+  /* box-shadow: 0 10px 30px var(--color-shadow); */
   border: 1px solid var(--color-border);
 }
 
@@ -101,12 +96,7 @@ body {
   height: auto;
   margin: var(--spacing-xl) 0;
   border-radius: var(--border-radius-sm);
-  box-shadow: 0 5px 20px var(--color-shadow);
-  transition: transform var(--transition-speed) var(--transition-ease);
-}
-
-.screenshot:hover {
-  transform: scale(1.1);
+  border: 1px solid var(--color-border);
 }
 
 .features {
@@ -127,15 +117,7 @@ body {
   margin: 0;
   max-width: 45ch;
   background-color: var(--color-background-card);
-  box-shadow: 0 5px 15px var(--color-shadow);
   border: 1px solid var(--color-border);
-  transition: transform var(--transition-speed) var(--transition-ease),
-    box-shadow var(--transition-speed) var(--transition-ease);
-}
-
-.feature:hover {
-  transform: scale(1.1);
-  box-shadow: 0 8px 20px var(--color-shadow);
 }
 
 footer {

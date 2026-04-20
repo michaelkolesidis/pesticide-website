@@ -6,14 +6,28 @@ import './App.css';
 function App() {
   return (
     <>
+      {/* Thumbfeed logo */}
+      <a
+        href="https://thumbfeed.com"
+        className="site-logo"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img
+          id="desktop-logo"
+          className="site-logo-img"
+          src="thumbfeed-logo-inline.svg"
+          alt="Thumbfeed logo"
+        />
+        <img
+          id="mobile-logo"
+          className="site-logo-img"
+          src="thumbfeed-logo.svg"
+          alt="Thumbfeed logo"
+        />
+      </a>
       <div>
-        <a
-          href="https://chromewebstore.google.com/detail/pesticide-without-hover-b/ibaidbcedfbojihflojeekadmebnlbpb"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img src={pesticideLogo} className="logo" alt="Pesticide logo" />
-        </a>
+        <img src={pesticideLogo} className="logo" alt="Pesticide logo" />
       </div>
       <h1>Pesticide (without hover bar)</h1>
       <a
@@ -61,12 +75,6 @@ function App() {
       </section>
 
       <footer>
-        <p>
-          Found a bug or have suggestions? Contact me at{' '}
-          <a href="mailto:michael.kolesidis@gmail.com">
-            michael.kolesidis@gmail.com
-          </a>
-        </p>
         <p>
           Source code available on{' '}
           <a
